@@ -33,6 +33,6 @@ int main(void) {
     p2=input_coordinates();
     dist=compute(p1,p2);
     printf("%f %f %f %f",p1.x,p2.x,p1.y,p2.y);
-    output(p1,p2,dist);
+    output(p1,p2,dist);0
     return 0;
 }
