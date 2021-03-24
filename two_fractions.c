@@ -25,7 +25,6 @@ int gcd (int num, int den) {
   if (num == 0)
     return den;
   return gcd (den % num, num);
-  // for num>den the euclid's algorithm peforms k+1 recursive calls. The extra recursive call interchanges the num and den ensuring num<den.
 }
 
 fraction lowest_term (fraction f, int div) {
