@@ -3,7 +3,7 @@
 #include<math.h>
 void main() {
     int m; 
-    printf("Enter the number of no: \n");
+    printf("Enter the number of no.s: \n");
     scanf("%d",&m);
     int s=0,y;
     for(int i=0;i<m;i++) {
